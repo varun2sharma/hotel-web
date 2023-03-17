@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Strip.scss"
-import "@fortawesome/style";
 export const Strip = () => {
   return (
     <div className='stripContainer py-1'>

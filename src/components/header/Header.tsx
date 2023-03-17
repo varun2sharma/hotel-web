@@ -4,8 +4,8 @@ import Strip from '../strip/Strip'
 export const Header = () => {
   return (
     <div className='header'>
-      <Navbar/>
-      <Strip/>
+      <Navbar />
+      <Strip />
     </div>
   )
 }

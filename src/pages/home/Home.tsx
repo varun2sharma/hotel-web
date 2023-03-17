@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.scss"
 import Header from '../../components/header/Header'
 import Body from '../../components/body/Body'
+import Search from '../../components/search/Search'
 export const Home = () => {
   return (
     <div className='homeContainer'>
@@ -10,6 +11,7 @@ export const Home = () => {
     }}>
       <Header />
       <Body/>
+      <Search/>
     </div>
     </div>
   )
